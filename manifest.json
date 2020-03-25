@@ -1,0 +1,19 @@
+{
+  "name": "Google translate proxy for reading content from blocked websites",
+  "version": "1.0",
+  "description": "This plugin will redirect user to Google translate to read the content from blocked websites.",
+  "author": "Vincent Vu",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://github.com/*",
+    "http://github.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
